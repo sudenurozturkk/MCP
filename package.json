@@ -1,0 +1,32 @@
+{
+  "name": "gemini-mcp-integration",
+  "version": "2.0.0",
+  "description": "Model Context Protocol (MCP) server - Claude Desktop ve Gemini AI uyumlu hava durumu araçları",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js demo",
+    "dev": "node --watch index.js",
+    "server": "node mcp-server.js",
+    "server:dev": "node --watch mcp-server.js"
+  },
+  "keywords": [
+    "gemini",
+    "mcp",
+    "model-context-protocol",
+    "function-calling",
+    "ai",
+    "google-ai",
+    "tools",
+    "weather-api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@modelcontextprotocol/sdk": "^1.20.1",
+    "dotenv": "^16.4.5",
+    "openmeteo": "^1.2.1"
+  }
+}

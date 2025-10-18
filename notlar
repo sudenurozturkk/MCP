@@ -1,0 +1,8 @@
+cloude - developer - kodun server js yeri - cloude da bu sistemi local çalıştır 
+-sunucu ve client ı bibririnden ayırarak herkesin kulllanabileceği bir şekle getirdi 
+ı want you to convert server js to use streamable http mode instead of stdıo
+sse is deprecated use streamable http see ......(bir yerden yazı kod vs aldı)
+can you make the server js sse compatible
+npx y mcp remote 
+can you use server.tool instead of handlerequest usage 
+

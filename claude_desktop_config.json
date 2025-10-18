@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "weather-tools": {
+      "command": "node",
+      "args": [
+        "C:\\Users\\Administrator\\Desktop\\Projelerim\\MCP\\mcp-server.js"
+      ],
+      "env": {},
+      "_comment": "👆 Yukarıdaki path'i kendi sisteminize göre değiştirin",
+      "_examples": {
+        "windows": "C:\\Users\\YourName\\Desktop\\Projelerim\\MCP\\mcp-server.js",
+        "macos": "/Users/yourname/Desktop/Projelerim/MCP/mcp-server.js",
+        "linux": "/home/yourname/Desktop/Projelerim/MCP/mcp-server.js"
+      },
+      "_note": "Windows'ta \\\\ (çift ters slash), macOS/Linux'ta / (slash) kullanın"
+    }
+  }
+}
+
